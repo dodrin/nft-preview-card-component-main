@@ -32,9 +32,14 @@ body {
   color: hsl(0, 0%, 60%);
   padding: 1.25rem;
   color: var(--Soft-blue);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-main, .card {
+.card {
   
 }
 
