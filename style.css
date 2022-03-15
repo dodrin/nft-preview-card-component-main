@@ -27,23 +27,24 @@ p {
 body {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.125rem;
   background-color: var(--main-BG);
   color: hsl(0, 0%, 60%);
   padding: 1.25rem;
   color: var(--Soft-blue);
-}
-
-main, .card {
-  
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
-  max-width: 350px;
+  max-width: 21.875rem;
   width: 100%;
-  margin: auto;
-  padding: 24px;
-  border-radius: 16px;
+  margin: 1.25rem;
+  padding: 1.5rem;
+  border-radius: 0.938rem;
   background-color: var(--card-BG);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
@@ -54,6 +55,7 @@ main, .card {
   overflow: hidden;
   border-radius: 10px;
   caret-color: transparent;
+  font-size: 0;
 }
 
 .card .main-image .overlay {
