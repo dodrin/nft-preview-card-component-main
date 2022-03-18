@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap");
 
 * {
   margin: 0;
@@ -67,7 +67,7 @@ body {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: hsl(178, 100%, 50%, 60%);
 }
 
@@ -113,7 +113,7 @@ body {
 }
 
 .card-content ul li:first-child {
-  color: var(--Cyan);  
+  color: var(--Cyan);
 }
 
 .avatar {
